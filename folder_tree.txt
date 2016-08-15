@@ -1,0 +1,9 @@
+各ディレクトリの構造及びその説明
+
+
+Geant4…B1,B2はGeant4のexampleファイルからコピーしてきたもの。B1をもとにaxion_detectionを作成。
+シミュレーションをローカル環境で実行するためにはaxion_detection下を一度削除した上でaxion_detection_buildフォルダを新たに作成し、そこでcmake->makeの手順を踏む。srcフォルダのaxionDetectorConstruction.ccの中で構造を変更し、Histomanager.ccの中の出力ファイル名を変更することで新たな条件でのシミュレーションが可能。
+
+Fe_film…thickness.ccがシミュレーションソースコードであり、これを実行することでレポート本文中のシミュレーションを再現可能。
+
+data…各種データを保存しておくために作ったフォルダ。
