@@ -1,0 +1,20 @@
+# Macro file for axion
+#
+# To be run preferably in batch, without graphics:
+# % axion run3.mac
+#
+#/run/numberOfWorkers 4
+/run/initialize
+#
+/control/verbose 2
+/run/verbose 2
+#
+# gamma 14.4keV
+# 10000 events
+#
+/gun/particle gamma
+/gun/energy 14.4 keV
+#
+/run/printProgress 100
+/run/beamOn 1000
+#

@@ -1,0 +1,1232 @@
+
+
+*******************************************************************************
+Thu Jul  7 17:39:36 2016
+
+
+FIT:    data read from "event_rate.txt"
+        format = z
+        #datapoints = 99
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*exp(-b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.4749526026e+12   0.00e+00  6.74e-01    1.000000e+00   1.000000e+00
+
+Current data point
+=========================
+#               = 5 out of 99
+x               = 114497         
+z               = 38769          
+
+Current set of parameters
+=========================
+a               = 114497         
+b               = -161250        
+
+BREAK: Function evaluation yields NaN ("not a number")
+
+*******************************************************************************
+Thu Jul  7 17:39:50 2016
+
+
+FIT:    data read from "event_rate.txt"
+        format = z
+        #datapoints = 99
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*exp(-b*x)
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 5 out of 99
+x               = 114497         
+z               = 38769          
+
+Current set of parameters
+=========================
+a               = 114497         
+b               = -161250        
+
+BREAK: Function evaluation yields NaN ("not a number")
+
+*******************************************************************************
+Thu Jul  7 17:45:49 2016
+
+
+FIT:    data read from "event_rate.txt"
+        format = z
+        #datapoints = 99
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*exp(-b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.2634459090e+04   0.00e+00  6.74e-01    1.000000e+00   1.000000e+00
+   5 3.7115131166e+02  -1.36e-01  6.74e-05    8.104770e+00  -7.119995e+00
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 371.151
+rel. change during last iteration : -1.35711e-06
+
+degrees of freedom    (FIT_NDF)                        : 97
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.95609
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.8263
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 8.10477          +/- 0.3255       (4.016%)
+b               = -7.12            +/- 0.5988       (8.411%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b               0.914  1.000 
+
+
+*******************************************************************************
+Thu Jul  7 17:46:45 2016
+
+
+FIT:    data read from "event_rate.txt"
+        format = z
+        #datapoints = 99
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*exp(-b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.2907299847e+04   0.00e+00  2.19e+00    8.104770e+00   5.000000e+01
+  19 3.7115131200e+02  -1.35e-01  2.19e-04    8.104776e+00  -7.119985e+00
+
+After 19 iterations the fit converged.
+final sum of squares of residuals : 371.151
+rel. change during last iteration : -1.34517e-06
+
+degrees of freedom    (FIT_NDF)                        : 97
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.95609
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.8263
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 8.10478          +/- 0.3255       (4.016%)
+b               = -7.11998         +/- 0.5988       (8.411%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b               0.914  1.000 
+
+
+*******************************************************************************
+Thu Jul  7 17:47:34 2016
+
+
+FIT:    data read from "event_rate.txt"
+        format = z
+        #datapoints = 99
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*exp(-b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.2907299043e+04   0.00e+00  2.19e+00    8.104776e+00   5.000000e+01
+  19 3.7115131200e+02  -1.35e-01  2.19e-04    8.104776e+00  -7.119985e+00
+
+After 19 iterations the fit converged.
+final sum of squares of residuals : 371.151
+rel. change during last iteration : -1.3453e-06
+
+degrees of freedom    (FIT_NDF)                        : 97
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.95609
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.8263
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 8.10478          +/- 0.3255       (4.016%)
+b               = -7.11998         +/- 0.5988       (8.411%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b               0.914  1.000 
+
+
+*******************************************************************************
+Thu Jul  7 17:52:15 2016
+
+
+FIT:    data read from "event_rate.txt"
+        format = z
+        #datapoints = 99
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*exp(-b*x)+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 4.7633682395e+02   0.00e+00  7.73e+00    8.104776e+00  -7.119985e+00   1.000000e+00
+ 307 3.0440465228e+02  -4.79e-01  7.73e-03    8.902686e+01  -9.688182e-01  -8.180606e+01
+
+After 307 iterations the fit converged.
+final sum of squares of residuals : 304.405
+rel. change during last iteration : -4.78797e-06
+
+degrees of freedom    (FIT_NDF)                        : 96
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.7807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.17088
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 89.0269          +/- 521.3        (585.6%)
+b               = -0.968818        +/- 5.407        (558.1%)
+c               = -81.8061         +/- 521.7        (637.8%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b               1.000  1.000 
+c              -1.000 -1.000  1.000 
+
+
+*******************************************************************************
+Thu Jul  7 17:52:27 2016
+
+
+FIT:    data read from "event_rate.txt"
+        format = z
+        #datapoints = 99
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*exp(-b*x)+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 3.0440465228e+02   0.00e+00  7.18e+01    8.902686e+01  -9.688182e-01  -8.180606e+01
+ 340 2.9531232078e+02  -9.99e-01  7.18e-01    3.244687e+02  -2.853000e-01  -3.173612e+02
+
+After 340 iterations the fit converged.
+final sum of squares of residuals : 295.312
+rel. change during last iteration : -9.98973e-06
+
+degrees of freedom    (FIT_NDF)                        : 96
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.7539
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.07617
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 324.469          +/- 5924         (1826%)
+b               = -0.2853          +/- 5.135        (1800%)
+c               = -317.361         +/- 5925         (1867%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b               1.000  1.000 
+c              -1.000 -1.000  1.000 
+
+
+*******************************************************************************
+Thu Jul  7 17:53:18 2016
+
+
+FIT:    data read from "event_rate.txt"
+        format = z
+        #datapoints = 99
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*log(-b*x)+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 3.2959279692e+08   0.00e+00  9.06e+02    3.244687e+02  -2.853000e-01  -3.173612e+02
+   4 2.8050796311e+01  -1.09e-02  9.06e-02    3.414669e+00  -3.866023e-01   2.622593e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 28.0508
+rel. change during last iteration : -1.09023e-07
+
+degrees of freedom    (FIT_NDF)                        : 96
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.540551
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.292196
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.41467          +/- 0.05902      (1.728%)
+b               = -0.386602        +/- 1.804e+10    (4.667e+12%)
+c               = 26.2259          +/- 1.593e+11    (6.074e+11%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.072  1.000 
+c              -0.072  1.000  1.000 
+
+
+*******************************************************************************
+Thu Jul  7 17:53:35 2016
+
+
+FIT:    data read from "event_rate.txt"
+        format = z
+        #datapoints = 99
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*log(-b*x)+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 2.8050796311e+01   0.00e+00  1.75e+01    3.414669e+00  -3.866023e-01   2.622593e+01
+   1 2.8050796311e+01  -3.80e-11  1.75e+00    3.414669e+00  -3.866023e-01   2.622593e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 28.0508
+rel. change during last iteration : -3.79959e-16
+
+degrees of freedom    (FIT_NDF)                        : 96
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.540551
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.292196
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.41467          +/- 0.059        (1.728%)
+b               = -0.386602        +/- 1.598e+10    (4.133e+12%)
+c               = 26.2259          +/- 1.411e+11    (5.379e+11%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.067  1.000 
+c              -0.067  1.000  1.000 
+
+
+*******************************************************************************
+Thu Jul  7 17:54:15 2016
+
+
+FIT:    data read from "event_rate.txt"
+        format = z
+        #datapoints = 99
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*log(-b*x)+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 2.8050796311e+01   0.00e+00  1.75e+01    3.414669e+00  -3.866023e-01   2.622593e+01
+   1 2.8050796311e+01   0.00e+00  1.75e+03    3.414669e+00  -3.866023e-01   2.622593e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 28.0508
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 96
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.540551
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.292196
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.41467          +/- 0.059        (1.728%)
+b               = -0.386602        +/- 1.598e+10    (4.133e+12%)
+c               = 26.2259          +/- 1.411e+11    (5.379e+11%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.067  1.000 
+c              -0.067  1.000  1.000 
+
+
+*******************************************************************************
+Thu Jul  7 17:54:27 2016
+
+
+FIT:    data read from "event_rate.txt"
+        format = z
+        #datapoints = 99
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*log(-b*x)+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 2.8050796311e+01   0.00e+00  1.75e+01    3.414669e+00  -3.866023e-01   2.622593e+01
+   1 2.8050796311e+01   0.00e+00  1.75e+03    3.414669e+00  -3.866023e-01   2.622593e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 28.0508
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 96
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.540551
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.292196
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.41467          +/- 0.059        (1.728%)
+b               = -0.386602        +/- 1.598e+10    (4.133e+12%)
+c               = 26.2259          +/- 1.411e+11    (5.379e+11%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.067  1.000 
+c              -0.067  1.000  1.000 
+
+
+*******************************************************************************
+Thu Jul  7 17:55:43 2016
+
+
+FIT:    data read from "event_rate.txt"
+        format = z
+        #datapoints = 99
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*exp(-b*x)+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.4964950180e+03   0.00e+00  8.68e+00   -1.000000e+00  -3.866023e-01   1.500000e+01
+  51 1.0113052425e+03  -9.71e-01  8.68e-01   -1.904244e-01  -2.600840e-02   1.197087e+01
+
+After 51 iterations the fit converged.
+final sum of squares of residuals : 1011.31
+rel. change during last iteration : -9.71193e-06
+
+degrees of freedom    (FIT_NDF)                        : 96
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.24568
+variance of residuals (reduced chisquare) = WSSR/ndf   : 10.5344
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -0.190424        +/- 1.319e+06    (6.928e+08%)
+b               = -0.0260084       +/- 1.8e+05      (6.919e+08%)
+c               = 11.9709          +/- 1.319e+06    (1.102e+07%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -1.000  1.000 
+c              -1.000  1.000  1.000 
+
+
+*******************************************************************************
+Thu Jul  7 17:56:47 2016
+
+
+FIT:    data read from "event_rate.txt"
+        format = z
+        #datapoints = 99
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*exp(-b*x)+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.7704947215e+03   0.00e+00  8.66e+00   -1.000000e+00   5.000000e+01   1.500000e+01
+   7 8.0444491014e-01  -3.06e-01  8.66e-05   -1.364449e+01   5.579075e+01   1.417269e+01
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0.804445
+rel. change during last iteration : -3.06408e-06
+
+degrees of freedom    (FIT_NDF)                        : 96
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0915403
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00837963
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -13.6445         +/- 0.04581      (0.3357%)
+b               = 55.7908          +/- 0.3695       (0.6623%)
+c               = 14.1727          +/- 0.01647      (0.1162%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.514  1.000 
+c               0.009 -0.716  1.000 
+
+
+*******************************************************************************
+Thu Jul  7 17:58:48 2016
+
+
+FIT:    data read from "event_rate.txt"
+        format = z
+        #datapoints = 99
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*exp(-b*x)+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.7704947215e+03   0.00e+00  8.66e+00   -1.000000e+00   5.000000e+01   1.500000e+01
+   7 8.0444491014e-01  -3.06e-01  8.66e-05   -1.364449e+01   5.579075e+01   1.417269e+01
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0.804445
+rel. change during last iteration : -3.06408e-06
+
+degrees of freedom    (FIT_NDF)                        : 96
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0915403
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00837963
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -13.6445         +/- 0.04581      (0.3357%)
+b               = 55.7908          +/- 0.3695       (0.6623%)
+c               = 14.1727          +/- 0.01647      (0.1162%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.514  1.000 
+c               0.009 -0.716  1.000 
+
+
+*******************************************************************************
+Thu Jul  7 17:59:00 2016
+
+
+FIT:    data read from "event_rate.txt"
+        format = z
+        #datapoints = 99
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*exp(-b*x)+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.7704947215e+03   0.00e+00  8.66e+00   -1.000000e+00   5.000000e+01   1.500000e+01
+   7 8.0444491014e-01  -3.06e-01  8.66e-05   -1.364449e+01   5.579075e+01   1.417269e+01
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0.804445
+rel. change during last iteration : -3.06408e-06
+
+degrees of freedom    (FIT_NDF)                        : 96
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0915403
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00837963
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -13.6445         +/- 0.04581      (0.3357%)
+b               = 55.7908          +/- 0.3695       (0.6623%)
+c               = 14.1727          +/- 0.01647      (0.1162%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.514  1.000 
+c               0.009 -0.716  1.000 
+
+
+*******************************************************************************
+Thu Jul  7 18:07:20 2016
+
+
+FIT:    data read from "event_rate.txt"
+        format = z
+        #datapoints = 99
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*exp(-b*x)+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.7704947215e+03   0.00e+00  8.66e+00   -1.000000e+00   5.000000e+01   1.500000e+01
+   7 8.0444491014e-01  -3.06e-01  8.66e-05   -1.364449e+01   5.579075e+01   1.417269e+01
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0.804445
+rel. change during last iteration : -3.06408e-06
+
+degrees of freedom    (FIT_NDF)                        : 96
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0915403
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00837963
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -13.6445         +/- 0.04581      (0.3357%)
+b               = 55.7908          +/- 0.3695       (0.6623%)
+c               = 14.1727          +/- 0.01647      (0.1162%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.514  1.000 
+c               0.009 -0.716  1.000 
+
+
+*******************************************************************************
+Thu Jul  7 18:08:04 2016
+
+
+FIT:    data read from "event_rate.txt"
+        format = z
+        #datapoints = 99
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*exp(-b*x)+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.7704947215e+03   0.00e+00  8.66e+00   -1.000000e+00   5.000000e+01   1.500000e+01
+   7 8.0444491014e-01  -3.06e-01  8.66e-05   -1.364449e+01   5.579075e+01   1.417269e+01
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0.804445
+rel. change during last iteration : -3.06408e-06
+
+degrees of freedom    (FIT_NDF)                        : 96
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0915403
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00837963
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -13.6445         +/- 0.04581      (0.3357%)
+b               = 55.7908          +/- 0.3695       (0.6623%)
+c               = 14.1727          +/- 0.01647      (0.1162%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.514  1.000 
+c               0.009 -0.716  1.000 
+
+
+*******************************************************************************
+Sat Jul  9 00:30:13 2016
+
+
+FIT:    data read from "event_rate2.txt"
+        format = z
+        #datapoints = 99
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*exp(-b*x)+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.7704947215e+03   0.00e+00  8.66e+00   -1.000000e+00   5.000000e+01   1.500000e+01
+   7 8.0444491014e-01  -3.06e-01  8.66e-05   -1.364449e+01   5.579075e+01   1.417269e+01
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0.804445
+rel. change during last iteration : -3.06408e-06
+
+degrees of freedom    (FIT_NDF)                        : 96
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0915403
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00837963
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -13.6445         +/- 0.04581      (0.3357%)
+b               = 55.7908          +/- 0.3695       (0.6623%)
+c               = 14.1727          +/- 0.01647      (0.1162%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.514  1.000 
+c               0.009 -0.716  1.000 
+
+
+*******************************************************************************
+Tue Jul 12 17:16:19 2016
+
+
+FIT:    data read from "event_rate2.txt"
+        format = z
+        #datapoints = 99
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*exp(-b*x)+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.7704947215e+03   0.00e+00  8.66e+00   -1.000000e+00   5.000000e+01   1.500000e+01
+   7 8.0444491014e-01  -3.06e-01  8.66e-05   -1.364449e+01   5.579075e+01   1.417269e+01
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0.804445
+rel. change during last iteration : -3.06408e-06
+
+degrees of freedom    (FIT_NDF)                        : 96
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0915403
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00837963
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -13.6445         +/- 0.04581      (0.3357%)
+b               = 55.7908          +/- 0.3695       (0.6623%)
+c               = 14.1727          +/- 0.01647      (0.1162%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.514  1.000 
+c               0.009 -0.716  1.000 
+
+
+*******************************************************************************
+Tue Jul 12 17:18:23 2016
+
+
+FIT:    data read from "event_rate2.txt"
+        format = z
+        #datapoints = 99
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*exp(-b*x)+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.7704947215e+03   0.00e+00  8.66e+00   -1.000000e+00   5.000000e+01   1.500000e+01
+   7 8.0444491014e-01  -3.06e-01  8.66e-05   -1.364449e+01   5.579075e+01   1.417269e+01
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0.804445
+rel. change during last iteration : -3.06408e-06
+
+degrees of freedom    (FIT_NDF)                        : 96
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0915403
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00837963
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -13.6445         +/- 0.04581      (0.3357%)
+b               = 55.7908          +/- 0.3695       (0.6623%)
+c               = 14.1727          +/- 0.01647      (0.1162%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.514  1.000 
+c               0.009 -0.716  1.000 
+
+
+*******************************************************************************
+Tue Jul 12 17:19:03 2016
+
+
+FIT:    data read from "event_rate2.txt"
+        format = z
+        #datapoints = 99
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*exp(-b*x)+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.7704947215e+03   0.00e+00  8.66e+00   -1.000000e+00   5.000000e+01   1.500000e+01
+   7 8.0444491014e-01  -3.06e-01  8.66e-05   -1.364449e+01   5.579075e+01   1.417269e+01
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0.804445
+rel. change during last iteration : -3.06408e-06
+
+degrees of freedom    (FIT_NDF)                        : 96
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0915403
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00837963
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -13.6445         +/- 0.04581      (0.3357%)
+b               = 55.7908          +/- 0.3695       (0.6623%)
+c               = 14.1727          +/- 0.01647      (0.1162%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.514  1.000 
+c               0.009 -0.716  1.000 
+
+
+*******************************************************************************
+Tue Jul 12 17:20:26 2016
+
+
+FIT:    data read from "event_rate2.txt"
+        format = z
+        #datapoints = 99
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*exp(-b*x)+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.7704947215e+03   0.00e+00  8.66e+00   -1.000000e+00   5.000000e+01   1.500000e+01
+   7 8.0444491014e-01  -3.06e-01  8.66e-05   -1.364449e+01   5.579075e+01   1.417269e+01
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0.804445
+rel. change during last iteration : -3.06408e-06
+
+degrees of freedom    (FIT_NDF)                        : 96
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0915403
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00837963
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -13.6445         +/- 0.04581      (0.3357%)
+b               = 55.7908          +/- 0.3695       (0.6623%)
+c               = 14.1727          +/- 0.01647      (0.1162%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.514  1.000 
+c               0.009 -0.716  1.000 
+
+
+*******************************************************************************
+Tue Jul 12 17:49:29 2016
+
+
+FIT:    data read from "event_rate.txt"
+        format = z
+        #datapoints = 99
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*exp(-b*x)+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 2.1665213331e+03   0.00e+00  8.66e+00   -1.000000e+00   5.000000e+01   1.500000e+01
+   8 7.2706525890e-01   0.00e+00  8.66e+05   -1.238329e+01   6.092157e+01   1.289642e+01
+
+After 8 iterations the fit converged.
+final sum of squares of residuals : 0.727065
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 96
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0870264
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0075736
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -12.3833         +/- 0.04575      (0.3694%)
+b               = 60.9216          +/- 0.4221       (0.6929%)
+c               = 12.8964          +/- 0.01461      (0.1133%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.548  1.000 
+c               0.022 -0.682  1.000 
+
+
+*******************************************************************************
+Tue Jul 12 17:49:49 2016
+
+
+FIT:    data read from "event_rate.txt"
+        format = z
+        #datapoints = 99
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*exp(-b*x)+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 2.1665213331e+03   0.00e+00  8.66e+00   -1.000000e+00   5.000000e+01   1.500000e+01
+   8 7.2706525890e-01   0.00e+00  8.66e+05   -1.238329e+01   6.092157e+01   1.289642e+01
+
+After 8 iterations the fit converged.
+final sum of squares of residuals : 0.727065
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 96
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0870264
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0075736
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -12.3833         +/- 0.04575      (0.3694%)
+b               = 60.9216          +/- 0.4221       (0.6929%)
+c               = 12.8964          +/- 0.01461      (0.1133%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.548  1.000 
+c               0.022 -0.682  1.000 
+
+
+*******************************************************************************
+Sun Jul 31 12:04:36 2016
+
+
+FIT:    data read from "event_rate.txt"
+        format = z
+        #datapoints = 99
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*exp(-b*x)+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 2.1665213331e+03   0.00e+00  8.66e+00   -1.000000e+00   5.000000e+01   1.500000e+01
+   8 7.2706525890e-01   0.00e+00  8.66e+05   -1.238329e+01   6.092157e+01   1.289642e+01
+
+After 8 iterations the fit converged.
+final sum of squares of residuals : 0.727065
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 96
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0870264
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0075736
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -12.3833         +/- 0.04575      (0.3694%)
+b               = 60.9216          +/- 0.4221       (0.6929%)
+c               = 12.8964          +/- 0.01461      (0.1133%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.548  1.000 
+c               0.022 -0.682  1.000 
+
+
+*******************************************************************************
+Sun Jul 31 12:06:48 2016
+
+
+FIT:    data read from "event_rate3.txt"
+        format = z
+BREAK: No data to fit
+
+*******************************************************************************
+Sun Jul 31 12:13:48 2016
+
+
+FIT:    data read from "event_rate3.txt"
+        format = z
+        #datapoints = 99
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*exp(-b*x)+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 2.1706048447e+03   0.00e+00  8.66e+00   -1.000000e+00   5.000000e+01   1.500000e+01
+   8 7.0022852266e-01  -9.51e-11  8.66e+03   -1.237377e+01   6.109367e+01   1.288090e+01
+
+After 8 iterations the fit converged.
+final sum of squares of residuals : 0.700229
+rel. change during last iteration : -9.51309e-16
+
+degrees of freedom    (FIT_NDF)                        : 96
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0854052
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00729405
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -12.3738         +/- 0.04497      (0.3634%)
+b               = 61.0937          +/- 0.4158       (0.6806%)
+c               = 12.8809          +/- 0.0143       (0.111%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.549  1.000 
+c               0.022 -0.681  1.000 
+
+
+*******************************************************************************
+Sun Jul 31 12:15:14 2016
+
+
+FIT:    data read from "event_rate2.txt"
+        format = z
+        #datapoints = 99
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*exp(-b*x)+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.7704947215e+03   0.00e+00  8.66e+00   -1.000000e+00   5.000000e+01   1.500000e+01
+   7 8.0444491014e-01  -3.06e-01  8.66e-05   -1.364449e+01   5.579075e+01   1.417269e+01
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0.804445
+rel. change during last iteration : -3.06408e-06
+
+degrees of freedom    (FIT_NDF)                        : 96
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0915403
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00837963
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -13.6445         +/- 0.04581      (0.3357%)
+b               = 55.7908          +/- 0.3695       (0.6623%)
+c               = 14.1727          +/- 0.01647      (0.1162%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.514  1.000 
+c               0.009 -0.716  1.000 
+
+
+*******************************************************************************
+Sun Jul 31 12:15:44 2016
+
+
+FIT:    data read from "event_rate.txt"
+        format = z
+        #datapoints = 99
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*exp(-b*x)+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 2.1665213331e+03   0.00e+00  8.66e+00   -1.000000e+00   5.000000e+01   1.500000e+01
+   8 7.2706525890e-01   0.00e+00  8.66e+05   -1.238329e+01   6.092157e+01   1.289642e+01
+
+After 8 iterations the fit converged.
+final sum of squares of residuals : 0.727065
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 96
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0870264
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0075736
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -12.3833         +/- 0.04575      (0.3694%)
+b               = 60.9216          +/- 0.4221       (0.6929%)
+c               = 12.8964          +/- 0.01461      (0.1133%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.548  1.000 
+c               0.022 -0.682  1.000 
+
+
+*******************************************************************************
+Sun Jul 31 12:17:05 2016
+
+
+FIT:    data read from "event_rate4.txt"
+        format = z
+        #datapoints = 99
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*exp(-b*x)+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 2.1753308099e+03   0.00e+00  8.66e+00   -1.000000e+00   5.000000e+01   1.500000e+01
+   8 6.6757722627e-01  -1.16e-10  8.66e+03   -1.236277e+01   6.130192e+01   1.286267e+01
+
+After 8 iterations the fit converged.
+final sum of squares of residuals : 0.667577
+rel. change during last iteration : -1.16414e-15
+
+degrees of freedom    (FIT_NDF)                        : 96
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0833902
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00695393
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -12.3628         +/- 0.04399      (0.3558%)
+b               = 61.3019          +/- 0.4078       (0.6652%)
+c               = 12.8627          +/- 0.01393      (0.1083%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.550  1.000 
+c               0.022 -0.679  1.000 
+
+
+*******************************************************************************
+Sun Jul 31 12:23:51 2016
+
+
+FIT:    data read from "event_rate5.txt"
+        format = z
+        #datapoints = 99
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*exp(-b*x)+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 2.0981504513e+03   0.00e+00  8.66e+00   -1.000000e+00   5.000000e+01   1.500000e+01
+   7 1.2952087715e+00  -4.54e-01  8.66e-07   -1.255784e+01   5.794955e+01   1.317563e+01
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 1.29521
+rel. change during last iteration : -4.5408e-06
+
+degrees of freedom    (FIT_NDF)                        : 96
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.116154
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0134918
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -12.5578         +/- 0.05937      (0.4728%)
+b               = 57.9496          +/- 0.5284       (0.9118%)
+c               = 13.1756          +/- 0.02026      (0.1538%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.529  1.000 
+c               0.015 -0.701  1.000 
+
+
+*******************************************************************************
+Mon Aug  1 08:42:27 2016
+
+
+FIT:    data read from "event_rate5.txt"
+        format = z
+        #datapoints = 99
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*exp(-b*x)+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 2.0981504513e+03   0.00e+00  8.66e+00   -1.000000e+00   5.000000e+01   1.500000e+01
+   7 1.2952087715e+00  -4.54e-01  8.66e-07   -1.255784e+01   5.794955e+01   1.317563e+01
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 1.29521
+rel. change during last iteration : -4.5408e-06
+
+degrees of freedom    (FIT_NDF)                        : 96
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.116154
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0134918
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -12.5578         +/- 0.05937      (0.4728%)
+b               = 57.9496          +/- 0.5284       (0.9118%)
+c               = 13.1756          +/- 0.02026      (0.1538%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.529  1.000 
+c               0.015 -0.701  1.000 
+
+
+*******************************************************************************
+Mon Aug  1 08:49:38 2016
+
+
+FIT:    data read from "event_rate5.txt"
+        format = z
+        #datapoints = 99
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*(1-exp(-b*x))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.4911054733e+04   0.00e+00  6.14e-01   -1.000000e+00   5.000000e+01
+   9 2.5079285921e+00  -4.21e-02  6.14e-05    1.310699e+01   6.186124e+01
+
+After 9 iterations the fit converged.
+final sum of squares of residuals : 2.50793
+rel. change during last iteration : -4.20654e-07
+
+degrees of freedom    (FIT_NDF)                        : 97
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.160795
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0258549
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 13.107           +/- 0.02529      (0.193%)
+b               = 61.8612          +/- 0.5158       (0.8339%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.681  1.000 
+
+
+*******************************************************************************
+Mon Aug  1 08:50:29 2016
+
+
+FIT:    data read from "event_rate5.txt"
+        format = z
+        #datapoints = 99
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*(1-exp(-b*x))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.4911054733e+04   0.00e+00  6.14e-01   -1.000000e+00   5.000000e+01
+   9 2.5079285921e+00  -4.21e-02  6.14e-05    1.310699e+01   6.186124e+01
+
+After 9 iterations the fit converged.
+final sum of squares of residuals : 2.50793
+rel. change during last iteration : -4.20654e-07
+
+degrees of freedom    (FIT_NDF)                        : 97
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.160795
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0258549
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 13.107           +/- 0.02529      (0.193%)
+b               = 61.8612          +/- 0.5158       (0.8339%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.681  1.000 
